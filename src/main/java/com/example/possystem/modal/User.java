@@ -20,7 +20,7 @@ public class User {
     private Long id;
 
     @Column(nullable = false)
-    private String fullname;
+    private String fullName;
 
     @Column(nullable = false, unique = true)
     @Email(message = "Email should be valid")

@@ -81,7 +81,7 @@ public class EmployeeServiceImpl implements EmployeeService {
                         .orElseThrow(()->new Exception("Branch not found"));
 
         existingEmployee.setEmail(employeeDetails.getEmail());
-        existingEmployee.setFullname(employeeDetails.getFullname());
+        existingEmployee.setFullName(employeeDetails.getFullName());
         existingEmployee.setPassword(employeeDetails.getPassword());
         existingEmployee.setRole(employeeDetails.getRole());
         existingEmployee.setBranch(branch);
