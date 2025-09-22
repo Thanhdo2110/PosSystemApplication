@@ -1,6 +1,5 @@
 package com.example.possystem.controller;
 
-import com.example.possystem.modal.Refund;
 import com.example.possystem.payload.dto.RefundDTO;
 import com.example.possystem.service.RefundService;
 import lombok.RequiredArgsConstructor;
